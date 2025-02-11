@@ -17,4 +17,12 @@ public class Dog extends Animal {
 	public String toString() {
 		return "Dog [" + super.toString() + "]";
 	}
+	
+	public static void main(String[] args) {
+		Dog p1 = new Dog("demba");
+		Dog p2 = new Dog("kamara");
+		
+		System.out.println(p1);
+		System.out.println(p2.toString());
+	}
 }

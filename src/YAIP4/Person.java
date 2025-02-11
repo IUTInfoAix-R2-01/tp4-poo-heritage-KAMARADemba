@@ -24,4 +24,12 @@ public class Person {
 	public String toString() {
 		return "Person [name=" + name + ", address=" + address + "]";
 	}
+	
+	public static void main(String[] args) {
+		Person p1 = new Person("demba", "123 rue de Aix");
+		Person p2 = new Person("kamara", "123 rue de Marseille");
+		
+		System.out.println(p1);
+		System.out.println(p2.toString());
+	}
 }

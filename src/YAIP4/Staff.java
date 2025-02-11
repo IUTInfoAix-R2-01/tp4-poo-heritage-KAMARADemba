@@ -31,5 +31,12 @@ public class Staff extends Person {
 		return "Staff [ "+ super.toString() + "school=" + school + ", pay=" + pay + "]";
 	}
 	
+	public static void main(String[] args) {
+		Staff p1 = new Staff("demba", "123 rue de Aix", "FAC", 4.4);
+		Staff p2 = new Staff("kamara", "123 rue de Marseille", "iut", 2.2);
+		
+		System.out.println(p1);
+		System.out.println(p2.toString());
+	}
 	
 }
