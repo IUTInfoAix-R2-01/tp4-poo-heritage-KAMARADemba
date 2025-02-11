@@ -6,10 +6,8 @@ public class Mammal extends Animal {
 		super(name);
 	}
 
-	@Override
+	
 	public String toString() {
 		return "Mammal [" + super.toString() + "]";
 	}
-	
-	
 }
