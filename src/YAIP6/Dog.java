@@ -19,5 +19,9 @@ public class Dog extends Animal{
 		return "Dog [" + super.toString() + "]";
 	}
 	
-	
+	public static void main(String[] args) {
+    	Dog d1 = new Dog("Demba");
+        
+    	System.out.println(d1.toString());
+    }
 }

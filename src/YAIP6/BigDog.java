@@ -2,7 +2,7 @@ package YAIP6;
 
 public class BigDog extends Dog{
 	
-	public BigDog() {
+	public BigDog(String name) {
 		super(name);
 	}
 	
@@ -15,6 +15,12 @@ public class BigDog extends Dog{
 	}
 	
 	public void greets(BigDog another) {
-		System.out.println("Woooooooooooooooooow");
+		System.out.println("Wooooooooow");
 	}
+	
+	public static void main(String[] args) {
+    	BigDog bd1 = new BigDog("Amine");
+        
+    	System.out.println(bd1.toString());
+    }
 }

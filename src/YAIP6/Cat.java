@@ -15,6 +15,11 @@ public class Cat extends Animal{
 		return "Cat [" + super.toString() + "]";
 	}
 	
-	
+	public static void main(String[] args) {
+    	Cat c1 = new Cat("Isma");
+        
+    	System.out.println(c1.toString());
+  
+    }
 	
 }
